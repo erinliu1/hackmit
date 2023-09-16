@@ -1,16 +1,18 @@
 <template>
-  <h1>Here is a child component!</h1>
   <forwards />
+  <back />
 </template>
 
 
 <script>
 import forwards from './forwards.vue'
+import back from './backwards.vue'
 
 export default {
-  name: "header",
+  name: "mainPage",
   components: {
-    forwards
+    forwards,
+    back,
   }
 }
 

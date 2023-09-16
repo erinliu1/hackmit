@@ -1,15 +1,18 @@
 <script setup>
 import Button from './StartButton.vue'
 import Title from './Title.vue'
+import Subtitle from './Subtitle.vue'
+
 </script>
 
 <template>
     <div class="main">
-        <div class="block">
-            <img alt="Vue logo" class="logo" src="../icons/logo.png" width="400" height="400" />
+        <div class="img">
+            <img alt="Vue logo" class="logo" src="../icons/logo.png" width=382 height=382 />
         </div>
         <div class="block">
             <Title />
+            <Subtitle />
             <Button />
         </div>
     </div>
@@ -19,8 +22,16 @@ import Title from './Title.vue'
 .main {
     display: flex;
     flex-direction: row;
+    place-items: center;
+}
+.img {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    max-width: 382px;
 }
 .block {
+    max-width: 690px;
     display: flex;
     flex-direction: column;
     place-items: center;

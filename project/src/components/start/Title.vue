@@ -16,6 +16,7 @@ h1 {
 	font-size: 72px;
   font-weight:bold;
   text-align: center;
+  line-height: normal;
 }
 
 </style>

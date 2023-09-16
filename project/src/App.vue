@@ -1,9 +1,10 @@
 <script setup>
+import startPage from './components/start/StartPage.vue'
 import mainPage from './components/page/page.vue'
 </script>
 
 <template>
-  <mainPage />
+  <startPage />
 </template>
 
 <style scoped>

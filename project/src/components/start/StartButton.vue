@@ -1,13 +1,11 @@
-<script setup>
-</script>
-
 <template>
     <button>Start</button>
 </template>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Raleway:500');
-    
+
+
 button {
     background: -webkit-gradient(to right,#a2ccb6 0%,#fceeb5 50%,#ee786e 100%);
     background: linear-gradient(to right,#a2ccb6 0%,#fceeb5 50%,#ee786e 100%);

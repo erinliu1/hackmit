@@ -26,7 +26,7 @@ button {
     font: 1.5em Raleway, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    height: 5rem;
+    height: 3rem;
     letter-spacing: .05em;
     outline: none;
     -webkit-tap-highlight-color: transparent;
@@ -34,7 +34,7 @@ button {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: 20rem;
+    width: 10rem;
 }
    
 button:hover {

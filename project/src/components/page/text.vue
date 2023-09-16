@@ -1,13 +1,14 @@
 <template>
     <div>
-        <h1>Once upon a time</h1>
+        <h1>{{ mainText }}</h1>
     </div>
 </template>
 
 <script>
 export default{
     name: "textbox",
-    components: {}
+    components: {},
+    props: ['mainText']
 }
 
 </script>

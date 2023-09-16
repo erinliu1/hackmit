@@ -1,10 +1,8 @@
 <script setup>
-import mainPage from './components/page/page.vue'
+import textbox from './components/page/text.vue'
 </script>
 
 <template>
-  <mainPage />
+  <textbox />
 </template>
 
-<style scoped>
-</style>

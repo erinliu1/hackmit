@@ -1,7 +1,8 @@
 <script setup>
+import router from '../../router';
 
 function start(event) {
-  
+    router.push('/story');
 }
 </script>
 

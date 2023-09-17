@@ -10,11 +10,11 @@ export default defineComponent({
     },
     typeSpeed: {
       type: Number,
-      default: 75,
+      default: 60,
     },
     start: {
       type: Number,
-      default: 2000,
+      default: 1000,
     },
   },
   data() {

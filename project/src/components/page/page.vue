@@ -1,4 +1,5 @@
 <template>
+  <mainImage imageName="monkey-master.png" />
   <textbox mainText="PLEASE" />
   <forwards />
   <back />
@@ -9,6 +10,7 @@
 import forwards from './forwards.vue'
 import back from './backwards.vue'
 import textbox from './text.vue'
+import mainImage from './image.vue'
 
 export default {
   name: "mainPage",
@@ -16,6 +18,7 @@ export default {
     textbox,
     forwards,
     back,
+    mainImage,
   }
 }
 

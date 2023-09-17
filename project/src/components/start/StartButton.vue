@@ -1,5 +1,12 @@
+<script setup>
+
+function start(event) {
+  
+}
+</script>
+
 <template>
-    <button>Start</button>
+    <button @click="start">Start</button>
 </template>
 
 <style scoped>

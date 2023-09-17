@@ -1,23 +1,11 @@
 <template>
-    <div>
-        <h1>{{ mainText }}</h1>
-    </div>
 </template>
 
 <script>
 export default{
-    name: "textbox",
-    components: {},
-    props: ['mainText']
+    name: "mainText",
+    props: {
+        textInfo: String,
+    }
 }
-
 </script>
-
-<style scoped>
-.container{
-  margin: auto;
-  overflow: auto;
-  min-height: 200px;
-  border: 150px solid #ffdbe0;
-  }
-</style>

@@ -6,16 +6,20 @@
         <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
       </h1>
     </div>
+    <typewriter-component v-bind:mainText="typewriter" />
   </template>
   
   <script>
   export default {
     name: "typeWriter",
+    props: {
+      mainText: String
+    },
     data: () => {
       return {
         typeValue: "",
         typeStatus: false,
-        displayTextArray: [""], // PUT STRING IN HERE
+        displayTextArray: mainText ,// PUT STRING IN HERE
         pauseTextArray: ["!", ",", ".", "?", ";", ":"],
         pauseDelay: 700,
         typingSpeed: 75,
@@ -25,9 +29,9 @@
         charIndex: 0,
       };
     },
-    props: {},
     created() {
       setTimeout(this.typeText, this.newTextDelay + 200);
+      this.textInfo = []
     },
     methods: {
         isExist: function(find, space) { // HOW DO I MAKE THE FUNCTION TAKE INPUTS

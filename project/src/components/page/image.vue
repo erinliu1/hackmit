@@ -1,5 +1,4 @@
 <script setup>
-// const packageName = require('package-name');
 defineProps({
   imageName: {
     type: String,

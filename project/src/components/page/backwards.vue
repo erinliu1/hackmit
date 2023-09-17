@@ -1,6 +1,6 @@
 <template>
     <button>
-        Next
+        Previous
     </button>
 </template>
 

@@ -15,6 +15,7 @@
     flex-direction: row;
     place-items: center;
     font-family: 'Roboto';
+    color: black;
     font-size: 27px;
     overflow:hidden;
     white-space:nowrap;

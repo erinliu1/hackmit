@@ -1,6 +1,6 @@
 <template>
-    <button>
-        Previous
+    <button @click="">
+        Next
     </button>
 </template>
 

@@ -1,18 +1,24 @@
 import {createRouter, createWebHistory} from 'vue-router'
 
-import StartPage from '../components/start/StartPage.vue'
-import StoryPage from '../components/page/page.vue'
+import Start from '../components/start/StartPage.vue'
+import Story from '../components/page/Story.vue'
+import End from '../components/end/EndPage.vue'
 
 const routes = [
     {
         path: '/',
         name: 'Start',
-        component: StartPage
+        component: Start
     },
     {
         path: '/story',
         name: 'Story',
-        component: StoryPage
+        component: Story
+    },
+    {
+        path: '/end',
+        name: 'End',
+        component: End
     }
 ]
 

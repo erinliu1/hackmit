@@ -2,7 +2,6 @@
 import Button from './StartButton.vue'
 import Title from './Title.vue'
 import Subtitle from './Subtitle.vue'
-
 </script>
 
 <template>

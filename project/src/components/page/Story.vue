@@ -4,8 +4,12 @@
   import forward from './forwards.vue';
   import router from '../../router';
   import { ref } from 'vue';
+  import image1 from '../icons/1.png';
+  import image2 from '../icons/2.png';
+  import image3 from '../icons/3.png';
+  import image4 from '../icons/4.png';
 
-  const images = ["1.png", "2.png", "3.png", "4.png"];
+  const images = [image1, image2, image3, image4];
   const texts = [
     "Once upon a time, there was a beautiful mountain at the edge of the jade sea. Legend says that this mountain was conceived by Heaven and Earth to be a place of peace and harmony for animals, plants, and other mountain spirits to reside. This mountain was called the Flower-Fruit Mountain.",
     "One day, a large boulder at the top of the mountain began to rumble and shake. A deep crevice slowly formed down the center of the boulder, and a bright beam of light shone from within the crack.",
@@ -36,7 +40,7 @@
   
 <template>
   <div class="container">
-    <mainPage :key="componentKey" :imageName="images[i]" :text="texts[i]" />
+    <mainPage :key="componentKey" :image="images[i]" :text="texts[i]" />
     <div class="buttons">
         <back @click="goPrevPage"/>
         <forward @click="goNextPage"/>

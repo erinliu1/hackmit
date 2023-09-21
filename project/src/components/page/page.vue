@@ -9,7 +9,7 @@ export default {
       type: String,
       required: true,
     },
-    imageName: {
+    image: {
       type: String,
       required: true
     }
@@ -19,11 +19,12 @@ export default {
     mainImage,
   }
 }
+
 </script>
 
 <template>
   <div class="container"> 
-    <img :src="`/src/components/icons/${imageName}`" width=650 height=382 />
+    <img :src="`${image}`" width=650 height=382 />
     <typewriter :array="[`${text}`]" />
   </div>
 </template>
